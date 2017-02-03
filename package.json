@@ -1,0 +1,26 @@
+{
+  "name": "path-plus",
+  "version": "1.0.0",
+  "description": "Improved path module.",
+  "scripts": {
+    "test": "tap test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electron-utils/path-plus.git"
+  },
+  "keywords": [
+    "node",
+    "path"
+  ],
+  "author": "jwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/electron-utils/path-plus/issues"
+  },
+  "homepage": "https://github.com/electron-utils/path-plus",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^10.0.2"
+  }
+}
