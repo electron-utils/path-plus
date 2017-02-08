@@ -18,7 +18,7 @@ npm install --save path-plus
 ```javascript
 const pathPlus = require('path-plus');
 
-pathPlus
+// do something...
 ```
 
 ## API Reference
