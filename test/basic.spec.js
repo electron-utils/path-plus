@@ -4,7 +4,7 @@ const tap = require('tap');
 const pathPlus = require('../index');
 
 tap.test('pathPlus.contains', t => {
-  // should work for simple case 
+  // should work for simple case
   t.ok(
     pathPlus.contains('foo/bar', 'foo/bar/foobar'),
     'foo/bar > foo/bar/foobar'
