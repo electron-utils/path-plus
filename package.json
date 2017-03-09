@@ -21,6 +21,6 @@
   "homepage": "https://github.com/electron-utils/path-plus",
   "dependencies": {},
   "devDependencies": {
-    "tap": "^10.2.0"
+    "tap": "^10.3.0"
   }
 }
