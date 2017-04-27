@@ -132,3 +132,22 @@ tap.test('pathPlus.stripExt', t => {
 
   t.end();
 });
+
+tap.test('pathPlus.toPosix', t => {
+  t.equal(
+    pathPlus.toPosix('foo/bar/foobar.sprite'),
+    'foo/bar/foobar.sprite'
+  );
+
+  t.equal(
+    pathPlus.toPosix('c:\\foo\\bar\\foobar'),
+    'c:/foo/bar/foobar'
+  );
+
+  t.equal(
+    pathPlus.toPosix('c:\\\\foo\\bar/foobar.sprite'),
+    'c://foo/bar/foobar.sprite'
+  );
+
+  t.end();
+});

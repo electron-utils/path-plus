@@ -86,6 +86,14 @@ pathPlus.contains = function ( pathA, pathB ) {
       return false;
 };
 
+/**
+ * @method toPosix
+ * @param {string} path
+ */
+pathPlus.toPosix = function (path) {
+  return path.replace(/\\/g, '/');
+};
+
 // ========================================
 // exports
 // ========================================
